@@ -45,6 +45,7 @@ int main(int argc, char *argv[])
             NameCard *nc15 = [[[NameCard alloc] initWithName:@"陈六" andTelCom:@"科技园" andTelHome:@"8882" andMobile:@"1333" andFax:@"8822" andAddrCom:@"addrCom1" andAddrHome:@"addrHome1" andEmail:@"tom@yahoo.com" andGender:kMale andBirthday:date2 andGroup:kCompany] autorelease];
             
             //加入通讯录
+            //
             [addressBook addNameCard:nc01];
             [addressBook addNameCard:nc02];
             [addressBook addNameCard:nc03];
